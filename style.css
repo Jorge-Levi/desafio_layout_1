@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.header{
+    background-color: #ccc;
+    width: 100%;
+    padding: 0rem 3rem;
+    height: 4rem;
+
+}
+
+.header__logo{
+    display: inline-block;
+    text-align:start;
+    width: 50%;
+    line-height: 4rem;
+
+}
+
+.header__logo h1{
+    font-size: 2.5rem;
+}
+
+.header__nav{
+    width: 49%;
+    display: inline-block;
+    text-align: end;
+    margin: 0;
+    padding: 0;
+}
+
+.header__nav ul{
+    display: inline;
+    text-align: end;
+}
+
+.header__nav li{
+    display: inline-block;
+    margin-left: 1rem;
+    padding: 0;
+}
+
+.header__nav a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    width: 10rem;
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.header__nav a:last-child{
+    margin: 0;
+}
