@@ -100,3 +100,41 @@ p{
     position: absolute;
     height: 61.2rem;
 }
+
+/* FOOTER */
+.footer{
+    width: 100%;
+    background-color: chocolate;
+    padding: 1rem;
+}
+
+.footer__section{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.footer__section2{
+    width: 49%;
+}
+
+.footer__section nav{
+    text-align: end;
+}
+
+.footer__section li{
+    display: inline-block;
+}
+
+.footer__section a{
+    font-size: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.footer__section li:last-child a{
+    margin-right: 0;
+}
